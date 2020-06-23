@@ -60,6 +60,11 @@ strong {
 dfn {
   font-style: italic;
 }
+
+footer {
+  margin-top: 4%;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -343,6 +348,8 @@ ul {
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+  list-style:none;
+  float: right;
 }
 ol {
   margin-left: 1.45rem;
@@ -510,6 +517,9 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+  display: inline-block;
+  margin-right: 1rem;
+
 }
 ol li {
   padding-left: 0;
